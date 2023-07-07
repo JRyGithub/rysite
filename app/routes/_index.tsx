@@ -8,7 +8,7 @@ export const meta: V2_MetaFunction = () => [{ title: "RySite" }];
 export default function Index() {
   const user = useOptionalUser();
   return (
-    <main className="relative min-h-screen min-w-screen bg-primary-bg sm:flex sm:items-center sm:justify-center">
+    <main className="min-h-screen min-w-screen bg-primary-bg sm:flex sm:flex-col sm:items-center sm:justify-center">
       <Outlet />
     </main>
   );
