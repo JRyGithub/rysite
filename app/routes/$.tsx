@@ -44,36 +44,3 @@ export default function ErrorBoundary() {
     </>
   )
 }
-
-// import { useEffect, useState } from "react";
-
-// export default function ImageLoading() {
-//   const [loading, setLoading] = useState(true);
-//   const [imgUrl, setImgUrl] = useState("");
-//   const [randomNumber, setRandomNumber] = useState(
-//     Math.floor(Math.random() * 100 + 1)
-//   );
-//   useEffect(() => {
-//     const id = setTimeout(() => {
-//       if (randomNumber) {
-//         setImgUrl(`https://robohash.org/${randomNumber}?set=set4`);
-//         setLoading(false);
-//       }
-//     }, 200);
-//     return () => clearTimeout(id);
-//   }, [randomNumber]);
-
-//   return (
-//     <div>
-//       {loading ? (
-//         <div>
-//           <img src={Img} alt="catLoader" />
-//           <br />
-//           <small>Loading images...</small>
-//         </div>
-//       ) : (
-//         <img src={imgUrl} alt="catLoader" />
-//       )}
-//     </div>
-//   );
-// }

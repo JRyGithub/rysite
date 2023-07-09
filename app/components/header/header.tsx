@@ -4,7 +4,7 @@ import HeaderEndButtons from "./organisms/headerEndButtons";
 
 const Header = () => {
     return (
-        <div className="navbar bg-primary-900 font-mono text-primary-text sticky sm:fixed top-0 left-0">
+        <div className="navbar bg-primary-900 font-mono text-primary-text fixed top-0 left-0">
             {/* Small Screens */}
             <div className="navbar-start">
                 <div className="dropdown">
